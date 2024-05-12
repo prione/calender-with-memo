@@ -1,0 +1,1 @@
+pyinstaller main.py -n calendar --onefile --clean --noconsole --icon=icon.ico --add-data .\icon.ico;.
