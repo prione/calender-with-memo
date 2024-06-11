@@ -88,7 +88,7 @@ def create_calendar(year, month):
 
     # ウィンドウサイズに応じて表示サイズを切り替える
     calendar_frame.grid_rowconfigure(0, weight=0)
-    for i in [3,5,7,9,11]:
+    for i in [3,5,7,9,11,13]:
 
         calendar_frame.grid_rowconfigure(i, weight=3)  # カレンダーの行
     for i in range(7):
